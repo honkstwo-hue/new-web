@@ -113,7 +113,7 @@ export default function Hyderbadescort(){
 										<div className="title">Devika</div>
 									</div>
 								</div>
-								</a>
+								</Link>
 							</div>
 							<div className="col-lg-3 col-md-6 col-12">
 								<Link href="/hyderabad-escorts/poonam/">
