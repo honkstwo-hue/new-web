@@ -1,0 +1,386 @@
+.main {
+    display: block;
+    padding: 0 4.625rem;
+    position: relative;
+}
+.sliderbg{
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #B9912B;
+     border-radius: 8px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.sliderbg .figure{
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
+.sliderbg .figure img{
+    width: 100%;
+    height: auto;
+     border-radius: 8px;
+}
+.absolutepath{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.absolutepath .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sliderbg .caption{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.sliderbg .caption span{
+    display: block;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #B9912B;
+    font-family: "Monsieur La Doulaise", cursive;
+}
+.sliderbg .caption h1{
+    display: block;
+    font-size: 5rem;
+    line-height: 1.2;
+    color: #fff;
+    font-family: "Marcellus SC", serif;
+    margin:1.5rem 0;
+}
+.booknow{
+    display: block;
+    overflow: hidden;
+    font-family: "Marcellus SC", serif;
+}
+.booknow a{
+    display: inline-block;
+    background: #c79515;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #000;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.topsection{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 60px 0;
+    overflow: hidden;
+    background: #000;
+}
+.topsection .shrtdesc{
+    margin-bottom: 1.5rem;
+}
+.topsection .figure{
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+}
+.topsection .figure img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+}
+.topsection .figure::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #1D212C;
+    border-radius: 12px;
+}
+.citylist{
+    display: block;
+    width: 100%;
+    padding: 60px 0;
+    position: relative;
+    background: #1B1F2A;
+}
+.collectionbg{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 60px 0;
+    overflow: hidden;
+    background: #000 url(/images/pattern.png) repeat;
+    position: relative;
+}
+.collectionbg::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: #1B1F2A;
+}
+.collectionbg .shrtdesc{
+    margin-bottom: 1rem;
+}
+.collectionbg .maintitle, .collectionbg .shrtdesc p{
+    color: #fff;
+}
+.collectionbg .container-fluid{
+    position: relative;
+    z-index: 1;
+}
+.collectionbg .row{
+    margin:0;
+}
+.collectionbg [class*='col-']{
+    padding: 0;
+    margin:1rem 0;
+    overflow: hidden;
+}
+.collectionbg .figure{
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.collectionbg .figure img{
+    width: 100%;
+    height: auto;
+    transition: transform .2s ease-in-out;  
+}
+.collectionbg .figure:hover img{
+    transform: scale(1.1);
+}
+.overlay{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.7) 100%);
+    text-align: center;
+}
+.overlay .title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-family: "Marcellus SC", serif;
+}
+.readmore{
+    display: block;
+}
+.readmore a{
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #B9912B;
+    font-family: "Marcellus SC", serif;
+}
+.taginfobg{
+    width: 100%;
+    margin:0;
+    padding:60px 0 60px 0;
+    overflow: hidden;
+}
+.taginfobg .column{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 30px;
+    border-right: 1px dashed #B9912B;
+}
+.taginfobg .bornone{
+    border-right: none;
+}
+.taginfobg .column .icon{
+    width: 55px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.taginfobg .column .icon img{
+    width: 100%;
+    height: auto;
+}
+.taginfobg .column .title{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #B9912B;
+    margin: 0.5rem 0;
+    font-family: "Marcellus SC", serif;
+}
+.taginfobg .column p{
+    display: block;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #aaa;
+}
+.sexyblond{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 120px 0;
+    overflow: hidden;
+    position: relative;
+    background: #000 url(/images/sexyblond.webp) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sexyblond::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.sexyblond .container{
+    position: relative;
+    z-index: 1;
+}
+.sexyblond .maintitle{
+    color: #fff;
+}
+.hotgirlbg{
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin:0;
+    padding: 60px 0;
+    background: #1B1F2A;
+}
+.hotgirlbg .maintitle{
+    font-size: 3rem;
+}
+.hotgirlbg .shrtdesc{
+    margin-bottom: 1.5rem;
+}
+.hotgirlbg [class*='col-']{
+    margin:1rem 0;
+    overflow: hidden;
+}
+.hotgirlbg .figure{
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.hotgirlbg .figure img{
+    width: 100%;
+    height: auto;
+    transition: transform .2s ease-in-out;  
+}
+.hotgirlbg .figure:hover img{
+    transform: scale(1.1);
+}
+.overlayprofile{
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,1) 100%);
+    text-align: center;
+}
+.overlayprofile .caption{
+    position: relative;
+    top: 40%;
+    transform: translate(0,100%);
+}
+.overlayprofile .title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-family: "Marcellus SC", serif;
+}
+.seosection{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:0;
+    padding:60px 0;
+    overflow: hidden;
+}
+.citylistingbg{
+ width: 100%;
+ margin:0;
+ padding:10px 0 ;
+ overflow: hidden;
+}
+.citylistingbg ul{
+ display: flex;
+ flex-wrap: wrap;
+ row-gap:2.5rem;
+ align-items: center;
+ justify-content: center;
+ column-gap: 3.5rem;
+}
+.citylistingbg ul li{
+ display: inline-block;
+ /*flex: auto;*/
+}
+.citylistingbg ul li a{
+ display: inline-block;
+ padding:16px 35px;
+ background: #000;
+ font-size: 1.0rem;
+ line-height: 1.2;
+ color: #B9912B;
+ border-radius: 6px;
+ font-weight: 500;
+}
+@media screen and (max-width: 991px){
+    .main{
+        padding: 0;
+    }
+    .sliderbg{
+        border-radius: 0;
+    }
+    .sliderbg .caption{
+        display: none;
+    }
+    .taginfobg .column{
+        border-right: none;
+        border-bottom: 1px dashed #B9912B;
+        padding-right: 0;
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+    .sliderbg .figure{
+        border-radius: 0;
+    }
+    .sliderbg .figure img{
+        border-radius: 0;
+    }
+    .hotgirlbg .maintitle{
+        font-size: 2rem;
+    }
+    
+}

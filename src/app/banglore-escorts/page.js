@@ -1,0 +1,205 @@
+import Image from "next/image";
+import Link from 'next/link';
+import '../../styles/innercss.css';
+
+
+export default function Bangloreescort(){
+	return(
+		<>
+			<section>
+				<div className="main">
+					<div className="sliderbg">
+						<div className="figure">
+							<Image src="/images/banglore-header.webp" width="1920" height="804" alt="" />
+							<div className="absolutepath">
+								<div className="container">
+									<div className="caption">
+										<h1>Banglore Escorts</h1>
+										<div className="booknow"><a href="">- BOOK SERVICES-</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div className="topsection">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-6 col-md-12">
+								<div className="figure"><Image src="/images/about-banglore.webp" width="726" height="472" alt=""/></div>
+							</div>
+							<div className="col-lg-6 col-md-12">
+								<div className="subtitle">Sexy Escorts</div>
+								<h2 className="title">Enjoy Life with The Sexiest  Escort in Banglore</h2>
+								<div className="shrtdesc">
+									<p>Take a look at our exclusive and exquisite gallery of sexy ladies and you will realize how much effort we put into screening and bringing the best for our clients! Our selection process is different from the rest which is why each lady you will meet here is outstanding. These courtesans specialize in mystic kisses, and girlfriend experience, and are highly cooperative and supportive. The escorts are chosen on strict criteria such as their looks, boldness, choice of attire, fitness, composure, and high standard and we never compromise on any of these parameters!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div className="collectionbg">
+					<div className="container-fluid text-center">
+						<div className="row">
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/kendra/">
+								<div className="figure">
+									<Image src="/images/kendra/kn1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Kendra</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/lucy/">
+								<div className="figure">
+									<Image src="/images/lucy/lc1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Lucy</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/payal/">
+								<div className="figure">
+									<Image src="/images/payal/pl1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Payal</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/rehana/">
+								<div className="figure">
+									<Image src="/images/rehana/rh1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Rehana</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/shabnam/">
+								<div className="figure">
+									<Image src="/images/shabnam/sb1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Shabnam</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/sneha/">
+								<div className="figure">
+									<Image src="/images/sneha/sn1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Sneha</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/tiara/">
+								<div className="figure">
+									<Image src="/images/tiara/tr1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Tiara</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+							<div className="col-lg-3 col-md-6 col-12">
+								<Link href="/banglore-escorts/tulika/">
+								<div className="figure">
+									<Image src="/images/tulika/tl1.webp" width="385" height="525" alt=""/>
+									<div className="overlay">
+										<div className="title">Tulika</div>
+									</div>
+								</div>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div className="pricetable">
+					<div className="container">
+						<div className="innertble">
+							<div className="text-center">
+								<div className="subtitle">Rate List</div>
+								<h2 className="maintitle">Top Class Call Girls and Escorts Service Rate List</h2>
+								<div className="borwhitebg"></div>
+							</div>
+							<div className="widthmedium">
+								<table>
+									<tbody>
+										<tr>
+											<th>Category</th>
+											<th>Services</th>
+											<th>Rate List</th>
+										</tr>
+										<tr>
+											<td>College Girls</td>
+											<td>Out-CALL</td>
+											<td>Rs. 10K TO 30K</td>
+										</tr>
+										<tr>
+											<td>Housewives</td>
+											<td>InCALL /Out-CALL</td>
+											<td>Rs. 7K TO 25K</td>
+										</tr>
+										<tr>
+											<td>Models</td>
+											<td>IN-CALL</td>
+											<td>Rs. 20K TO 45K</td>
+										</tr>
+										<tr>
+											<td>Russian</td>
+											<td>InCALL /Out-CALL</td>
+											<td>Rs. 25K TO 50K</td>
+										</tr>
+										<tr>
+											<td>Celebrity</td>
+											<td>Out-CALL</td>
+											<td>Rs. 30K TO 60K</td>
+										</tr>
+										<tr>
+											<td>Premium</td>
+											<td>InCALL /Out-CALL</td>
+											<td>Rs. 30K TO 75K</td>
+										</tr>
+										<tr>
+											<td>Other's</td>
+											<td>InCALL /Out-CALL</td>
+											<td>InCALL /Out-CALL</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div className="seosection">
+					<div className="container text-center">
+						<h2 className="maintitle">Meet the Sizzling  Escort for Hookup in Banglore</h2>
+						<div className="shrtdesc">
+							<p>Pune’s call girl industry is thriving mainly because of more and more bold housewives joining in to offer their pleasure services to interested gentlemen. And it is our delight to have the cream hotties as our courtesans who are ready to shower their ceaseless love on clients 24/7. The ladies will drench you in their passionate love and you will still crave for more and keep coming to them over and over again! That’s our confidence because we have so many regular and frequent clients who love to spend hours, days, and weekends in the titillating company of our beautiful and super sexy housewife escorts.</p>
+							<p>Clients interested in meeting a housewife for sex in Pune have many avenues they can easily explore. While you may visit brothels nothing can serve you better than escort agencies like ours. We let you choose your favorite house wife for sex in Pune from our colossal gallery and make a quick and easy booking right online. This is easy, safe, and fast! You can choose to visit the chosen courtesan for sexual pleasure or you can call her to your chosen place – that could be an apartment, a hotel room, a farm house, or just wherever you feel comfortable. Your pleasure is our commitment and you will see this commitment in our escorts’ conduct as well.</p>
+							<p>Please feel free to share your desires about the kind of dress up (even the lingerie) you want the lady to wear at the time of meeting, the choice of fragrance, makeup, etc. she should carry, and even the activities you expect her to specialize in! Our house wife escorts are bold, active, mischievous, and full of confidence. They have an amazing sense of humor to liven up the meeting and ensure complete satisfaction during the erotic pleasure. Looking for fun and pleasure with a gorgeous house wife for sex in Pune? Call or text us now!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</>
+		);
+}

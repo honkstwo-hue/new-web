@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@font-face {
+    font-display: swap
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body,
+header,
+footer,
+nav,
+aside,
+figure,
+figcaption,
+hgroup,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+p,
+strong,
+span,
+aside,
+main {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-display: optional;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    background: #000
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
+
+img {
+    max-width: 100%
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #1553fc
+}
+.clear{
+    clear:both;
+}
+.topheader .innerth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.leftnav{
+    display: block;
+}
+.leftnav ul{}
+.leftnav ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+.leftnav ul li a{
+    display: block;
+    font-size: 0.90rem;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+}
+.rightnav{
+    display: block;
+}
+.rightnav ul{}
+.rightnav ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+.rightnav ul li a{
+    display: block;
+    font-size: 0.90rem;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+}
+.mainheader{
+    display: block;
+    position: relative;
+    padding: 7px 0 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.innermh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo{
+    display: inline-block;
+    width: 165px;
+    padding: 7px 0;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.whatsappbg{
+    display: inline-block;
+    float: right;
+    width: 150px;
+}
+.whatsappbg a{
+   display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    line-height: 42px;
+    color: #fff;
+}
+.whatsappbg a::before{
+    content: '\f232';
+    position: static;
+    font-size: 1.4rem;
+    line-height: 42px;
+    color: #81B441;
+    margin-right: 7px;
+    font-family: 'FontAwesome';
+}
+.subtitle{
+    display: block;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #c79515;
+    margin-bottom: 1rem;
+    font-family: "Monsieur La Doulaise", cursive;
+}
+.maintitle{
+    display: block;
+    font-size: 4rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-family: "Marcellus SC", serif;
+}
+.shrtdesc{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.shrtdesc p{
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #aaa;
+}
+.shrtdesc p:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.widthmedium{
+    width: 767px;
+    max-width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.borwhitebg{
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed rgba(255,255,255,0.5);
+    margin-bottom: 1rem;
+}
+.foooterbg{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 40px 0 0;
+    overflow: hidden;
+    background: #1B1F2A;
+}
+.foooterbg .logo{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+.footertitle{
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #B9912B;
+    font-family: "Marcellus SC", serif;
+    margin-bottom: 1rem;
+}
+.footermenu{
+    display: block;
+    overflow: hidden;
+    font-family: "Marcellus SC", serif;
+}
+.footermenu ul{
+
+}
+.footermenu ul li{
+    display: block;
+    margin:.8rem 0;
+}
+.footermenu ul li  a{
+    display: block;
+    font-size: .85rem;
+    line-height: 1.6;
+    color: #fff;
+    position: relative;
+}
+.footermenu ul li  a::before{
+    content: '\f10c';
+    position: static;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #B9912B;
+    margin-right: 7px;
+    font-family: 'FontAwesome';
+}
+.copyright{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    font-size: .85rem;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+    font-family: "Marcellus SC", serif;
+}
+.copyright a{
+    display: inline-block;
+    color: #B9912B;
+}
+
+.footercontact{
+    display: block;
+    width: 100%;
+    margin:0 0 1rem;
+}
+.footercontact .icon{
+    width: 25px;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    font-size: 1rem;
+    line-height: 35px;
+    color: #B9912B;
+}
+.footercontact .capss{
+    float: left;
+    display: block;
+    width: calc(100% - 40px);
+}
+.footercontact .capss a{
+    display: block;
+    font-size: 1rem;
+    line-height: 35px;
+    color: #fff;
+    text-transform: none;
+    font-family: "Marcellus SC", serif;
+}
+.widthsmall{
+    width: 767px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 1199px){
+    
+    
+}
+@media screen and (max-width: 991px){
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .logo img{
+        width: 140px;
+    }
+    
+   .navigationbg{
+    width: 100%;
+   } 
+   .whatsappbg{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 9999;
+   }
+   #cssmenu.small-screen ul li{
+    box-sizing: border-box;
+    padding-left: 15px;
+   }
+   .phoneinfo{
+    display: none;
+   }
+   .maintitle{
+    font-size: 2rem;
+   }
+   .booknow{
+    margin-bottom: 1rem;
+   }
+}

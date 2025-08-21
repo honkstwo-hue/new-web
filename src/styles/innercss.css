@@ -1,0 +1,284 @@
+.main {
+    display: block;
+    padding: 0 4.625rem;
+    position: relative;
+}
+.sliderbg{
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #B9912B;
+    margin: 15px 0;
+    border-radius: 22px;
+    ;
+}
+.sliderbg .figure{
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 22px;
+}
+.sliderbg .figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 22px;
+}
+.absolutepath{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.sliderbg .caption{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.sliderbg .caption h1{
+    display: block;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #fff;
+    font-family: "Marcellus SC", serif;
+    margin:1.5rem 0;
+}
+.booknow{
+    display: block;
+    overflow: hidden;
+    font-family: "Marcellus SC", serif;
+}
+.booknow a{
+    display: inline-block;
+    background: #B9912B;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #000;
+    padding: 12px 25px;
+}
+.topsection{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 60px 0;
+    overflow: hidden;
+    background: #1B1F2A;
+}
+.topsection .shrtdesc{
+    margin-bottom: 1.5rem;
+}
+.topsection .figure{
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 12px;
+}
+.topsection .figure img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+}
+.topsection .figure::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 12px;
+}
+.topsection .title{
+    display: block;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.0rem;
+    font-family: "Marcellus SC", serif;
+}
+.topsection .subtitle{
+    display: block;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #c79515;
+    margin-bottom: 1rem;
+    font-family: "Monsieur La Doulaise", cursive;
+}
+.topsection .shrtdesc p{
+    font-size: .9rem;
+}
+.topsection .shrtdesc p:not(:last-child){
+    margin-bottom: 1.0rem;
+}
+
+.collectionbg{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 40px 0 60px 0;
+    overflow: hidden;
+    background: #000 url(/images/pattern.png) repeat;
+    position: relative;
+}
+.collectionbg::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: #1B1F2A;
+}
+.collectionbg .shrtdesc{
+    margin-bottom: 1rem;
+}
+.collectionbg .maintitle, .collectionbg .shrtdesc p{
+    color: #fff;
+}
+.collectionbg .container-fluid{
+    position: relative;
+    z-index: 1;
+}
+.collectionbg .row{
+    margin:0;
+}
+.collectionbg [class*='col-']{
+    margin:1rem 0;
+    overflow: hidden;
+    padding: 0;
+}
+.collectionbg .figure{
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.collectionbg .figure img{
+    width: 100%;
+    height: auto;
+    transition: transform .2s ease-in-out; 
+}
+.collectionbg .figure:hover img{
+    transform: scale(1.1);
+
+}
+.overlay{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.7) 100%);
+    text-align: center;
+}
+.overlay .title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-family: "Marcellus SC", serif;
+}
+.readmore{
+    display: block;
+}
+.readmore a{
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #B9912B;
+    font-family: "Marcellus SC", serif;
+}
+.pricetable{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.pricetable .innertble{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 5px;
+    position: relative;
+    background: #000;
+    font-family: "Marcellus SC", serif;
+}
+.pricetable .widthmedium{
+    background: rgba(74,70,70,0.5);
+}
+.pricetable table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.pricetable td, .pricetable th {
+  border: 1px solid rgba(255,255,255,0.3);
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+    
+}
+.pricetable th {
+  border: 1px solid rgba(255,255,255,0.3);
+  text-align: center;
+  padding: 8px;
+  color: #B9912B;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.pricetable td {
+  border: 1px solid rgba(255,255,255,0.3);
+  text-align: center;
+  padding: 8px;
+  color: #fff;
+  font-size: 1.0rem;
+}
+.pricetable .maintitle{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.seosection{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:0;
+    padding:60px 0;
+    overflow: hidden;
+}
+.seosection .maintitle{
+    font-size: 3rem;
+}
+@media screen and (max-width: 767px){
+    .sliderbg .figure{
+        height: 200px;
+    }
+    .sliderbg .figure img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .sliderbg .caption{
+        display: none;
+    }
+    .pricetable .maintitle{
+        font-size: 2rem;
+    }
+    .seosection .maintitle{
+        font-size: 2rem;
+    }
+    .pricetable th{
+        font-size: 1rem;
+    }
+}
