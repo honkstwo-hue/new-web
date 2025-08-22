@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 export default function Footer() {
   useEffect(() => {
-    // Run only if jQuery is loaded
     if (typeof window !== "undefined" && window.jQuery) {
       const $ = window.jQuery;
 
@@ -16,6 +15,14 @@ export default function Footer() {
         $(".mobile_btn").on("click", function () {
           $(".main_menu").slideToggle();
           $(this).find("span").toggleClass("fa-rotate-45");
+        });
+
+        // Close menu when a link is clicked (on mobile)
+        $(".main_menu a").on("click", function () {
+          if ($(window).width() < 768) {
+            $(".main_menu").slideUp();
+            $(".mobile_btn span").removeClass("fa-rotate-45");
+          }
         });
 
         // Handle dropdowns on mobile
@@ -41,6 +48,7 @@ export default function Footer() {
       });
     }
   }, []);
+
 
   return (
     <>

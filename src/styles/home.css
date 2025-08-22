@@ -340,11 +340,11 @@
  row-gap:2.5rem;
  align-items: center;
  justify-content: center;
- column-gap: 3.5rem;
+ column-gap: 1.5rem;
 }
 .citylistingbg ul li{
  display: inline-block;
- /*flex: auto;*/
+ flex: 0 0 160px;
 }
 .citylistingbg ul li a{
  display: inline-block;
@@ -355,6 +355,8 @@
  color: #B9912B;
  border-radius: 6px;
  font-weight: 500;
+ display: block;
+ text-align: center;
 }
 @media screen and (max-width: 991px){
     .main{

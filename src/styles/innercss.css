@@ -262,12 +262,20 @@
     font-size: 3rem;
 }
 @media screen and (max-width: 767px){
+    .main{
+        padding: 0;
+    }
+    .sliderbg{
+        border-radius: 0;
+    }
     .sliderbg .figure{
         height: 200px;
+         border-radius: 0;
     }
     .sliderbg .figure img{
         height: 100%;
         object-fit: cover;
+         border-radius: 0;
     }
     .sliderbg .caption{
         display: none;
