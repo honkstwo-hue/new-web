@@ -28,7 +28,7 @@ export default function Jaipurescort(){
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-6 col-md-12">
-								<div className="figure"><Image src="/images/about-Jaipur.webp" width="726" height="472" alt=""/></div>
+								<div className="figure"><Image src="/images/about-banglore.webp" width="726" height="472" alt=""/></div>
 							</div>
 							<div className="col-lg-6 col-md-12">
 								<div className="subtitle">Sexy Escorts</div>

@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="shrtdesc">
                   <p>Our Hyderabad  Escorts are famous for delivering what’s promised – ultimate pleasure and satisfaction to the max. We don’t make false promises and maintain standards in escort agencies. All our models are fully committed to their job which means you can realize all your fantasies with these alluring girls.</p>
                 </div>
-                <div className="booknow"><Link href="">- READ MORE-</Link></div>
+                <div className="booknow"><Link href="">- BOOK NOW -</Link></div>
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="figure"><Image src="/images/about-image.webp" width="726" height="472" alt=""/></div>

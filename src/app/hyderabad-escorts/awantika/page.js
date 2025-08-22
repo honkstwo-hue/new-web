@@ -62,7 +62,7 @@ export default function Awantikaescort(){
 										<table>
 										<tbody>
 											<tr>
-												<th colspan="2">Physical Detail</th>
+												<th colSpan="2">Physical Detail</th>
 											</tr>
 											<tr>
 												<td>Age :</td>
